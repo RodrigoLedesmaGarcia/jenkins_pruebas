@@ -3,6 +3,9 @@ package com.spring.www;
 public class HolaMundo {
     public static void main(String[] args) {
 
-        System.out.println("Hola Mundo Jenkins");
+        String saludo = "Hola Mundo Jenkins";
+        String actualizacion = "version v.1.0";
+
+        System.out.println(saludo+" "+actualizacion);
     }
 }
